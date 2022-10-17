@@ -3,20 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jptv21library;
+package managers;
+
+import entity.Author;
+import entity.Book;
+import entity.Reader;
+import java.util.Scanner;
 
 /**
  *
  * @author pupil
  */
-class scanner {
+public class ReaderManager {
 
-    static void nextLine() {
+    void printListReaders(Reader[] readers) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    static int nextInt() {
+    public Reader createReader() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+}
+public Reader createReader(){
+
 }

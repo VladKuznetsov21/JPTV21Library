@@ -16,6 +16,11 @@ public class Reader {
     public Reader() {
     }
 
+    public Reader(String firstname, String lastname) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
+
     public String getFirstname() {
         return firstname;
     }
